@@ -1,7 +1,9 @@
-const loginPage = require('../pageobjects/login.page');
-const mainPage = require('../pageobjects/main.page');
-const welcomePage = require('../pageobjects/welcome.page');
-const userTestData = require('../test-data/user.login.credentials.json');
+import loginPage from './../../core/pageobjects/login.page';
+// const loginPage = require('./../../core/pageobjects/login.page');
+import mainPage from '../../core/pageobjects/main.page';
+// const mainPage = require('../../core/pageobjects/main.page');
+import userTestData from '../test-data/user.login.credentials.json';
+// const userTestData = require('../test-data/user.login.credentials.json');
 
 describe('juice-shop login test suite', () => {
 

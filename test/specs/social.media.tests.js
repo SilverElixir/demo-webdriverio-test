@@ -1,6 +1,6 @@
-const sidebarMenu = require('../pageobjects/sidebar.menu');
-const mainPage = require('../pageobjects/main.page');
-const aboutUsPage = require('../pageobjects/about.us.page');
+import aboutUsPage from '../../core/pageobjects/about.us.page';
+import mainPage from '../../core/pageobjects/main.page';
+// const mainPage = require('../../core/pageobjects/main.page');
 
 const juiceShopText = 'owasp_juiceshop'; 
 
